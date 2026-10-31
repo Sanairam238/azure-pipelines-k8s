@@ -1,4 +1,3 @@
-```yaml
 trigger:
   - main
 
@@ -53,4 +52,3 @@ stages:
                 kubectl apply -f k8s/
                 kubectl rollout status deployment/demobook --timeout=180s
                 kubectl get pods,svc -o wide
-```
